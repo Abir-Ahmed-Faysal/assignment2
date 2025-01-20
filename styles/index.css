@@ -11,7 +11,8 @@
 padding: 0;
 box-sizing: border-box;
 font-family: Quicksand;}
-header{ width: 1920px;}
+header{ width: 1920px;
+}
 
 img{width: 100%;}
 
@@ -156,9 +157,13 @@ font-weight: 700;}
     hr{margin-bottom: 20px;}
     .banner-title{font-size: 32px;
     margin: 0 auto;}
+    .banner-description{font-size: 14px;}
+    .banner-btn{font-size: 16px;}
     .banner{
-        flex-direction: column-reverse; 
-    text-align: center; 
+        flex-direction: column-reverse;
+        text-align: center;
+        
+        
 gap: 20px;
 padding-bottom: 20px;}
     .hamberger, .hr{display: block;}
