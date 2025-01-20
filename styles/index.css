@@ -1,13 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-quick {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
 *{margin: 0;
 padding: 0;
-box-sizing: border-box;}
+box-sizing: border-box;
+font-family: Quicksand;}
+header{ width: 1920px;}
 
+img{width: 100%;}
 
+.font20{font-size: 1.24rem;}
 
-
-
-
-
+.font-skyblue{color: #01ACFD;
+}
+.font-orange{color: #FEA301;}
+.font-black{color:#111111}
 .bg-primary{
 
 
@@ -16,11 +29,16 @@ box-sizing: border-box;}
 .bg-secondary{
 
 }
-
+.orange{background-color: #FEA301;}
 
 
 
 .button-primary{
+font-size: 1.25rem;
+color: white;
+border-radius: 12px;
+border: none;
+padding: 8px 30px;
 
 }
 
@@ -47,3 +65,93 @@ title{
     display: flex;
 }
 
+.display-none{display:  none;}
+
+
+
+
+
+/* nav */
+.logo{
+    height: 62px;
+    width: 62px;
+}
+.logo{
+    font-size: 2rem;
+}
+
+
+.header{width: 100%;  
+    }
+
+.nav{
+    width: 85%;
+    margin: 0px auto;
+    padding: 35px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-title-container{
+    align-items: center;
+}
+.nav-items{ width:35%;
+list-style: none;
+    display: flex ;
+justify-content: space-between;}
+.nav-button{font-weight: 600;
+}
+ul > li:nth-child(1){
+   font-weight: 700;
+}
+ul > li:nth-child(2){
+   font-weight: 500;
+}
+ul > li:nth-child(3){
+    color: rgb(5, 212, 223);
+   font-weight: 500;
+}
+ul > li:nth-child(4){
+    color:rgb(93, 88, 239);
+   font-weight: 500;
+}
+.hamberger{width: 35px;
+height: 35px;}
+
+
+hr{border: .7px solid orange;
+margin-top: -30px;}
+
+
+ /* banner */
+.banner{
+   width: 85%;
+   margin: 0px auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 50px;
+}
+.banner-btn{background-color: #111111;
+font-weight: 700;}
+
+.banner-title{
+    font-size: 4rem;
+}
+.banner-img>img{
+    width: 100%;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:390px){
+    .nav-items , .heading-title , .button-nav{display: none;}
+    .logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .hamberger, .hr{display: block;}
+}
