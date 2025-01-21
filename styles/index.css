@@ -155,10 +155,8 @@ font-weight: 700;}
     justify-content: space-between;
 }
 
-/* main */
-.main{background:url('../assets/bg.png');
-   
-}
+/* curriculum */
+
 .curriculum{
     width: 85%;
     margin: 60px auto;
@@ -166,6 +164,7 @@ font-weight: 700;}
     flex-direction: column;
     align-items: center;
     gap: 130px;
+    background:url('../assets/bg.png')
 }
 .hero-title{ 
     font-size: 2.9rem;
@@ -231,16 +230,55 @@ border: 0.94px solid rgb(255, 244, 220);}
     
 }
 /* stories */
+
 .stories{
+    background:url('../assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
     width: 85%;
-    margin: auto;
+    margin:0 auto;
     text-align: center;
+
+}
+.stories>img{
+    object-fit: cover;
+}
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-rows: repeat(1,500px); */
+    gap: 20px;
+   
+}
+.secondary-story-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+   
+}
+.main-story{
+    background-color: white;
+    border-radius: 16px;
+}
+.secondary-story{
+    background-color: white;
+    border-radius: 16px;
+}
+.secondary-story >.date{
+    top: -16.5px;
+    left: -50px;
+    position: relative;
+    font-size: .9rem;
+    color: white;
+    border-radius: 47px;
 }
 
-
-
-
-
+.main-story >.date{
+    top: -16.5px;
+    left: -150px;
+    position: relative;
+    font-size: .9rem;
+    color: white;
+    border-radius: 47px;
+}
 
 
 
