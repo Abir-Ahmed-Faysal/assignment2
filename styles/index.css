@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
+
+
+  
 .quicksand-quick {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    
   }
   
 *{margin: 0;
@@ -22,6 +26,12 @@ img{width: 100%;}
 }
 .font-orange{color: #FEA301;}
 .font-black{color:#111111}
+.description{
+    font-family: raleway;
+font-weight: 500;
+font-size: .9rem;
+color: rgb(128, 128, 128);
+}
 .bg-primary{
 
 
@@ -57,10 +67,7 @@ padding: 8px 30px;
 title{
 
 }
-.description{
 
-
-}
 
 .display-flex{
     display: flex;
@@ -154,11 +161,16 @@ font-weight: 700;}
 }
 .curriculum{
     width: 85%;
-    margin: 0 auto;
+    margin: 60px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 130px;
+}
+.hero-title{ 
+    font-size: 2.9rem;
+    font-weight: bold;
+   
 }
 .hero-card-container{
   
@@ -170,6 +182,7 @@ gap: 60px;
 .card-img{width: 130px;
 height: 125px;
 }
+.card-title{font-size: 1.67rem;}
 
 .box{
     background-color: white;
@@ -187,12 +200,26 @@ height: 125px;
     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 border: 0.94px solid rgb(222, 245, 255);
 }
+
 .card2{background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 border: 0.94px solid rgb(255, 244, 220);}
 .card3{
  background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
  border: 0.94px solid rgb(242, 232, 255);
 }
+.card1 >.card-button{
+    color: rgb(100, 200, 255) ;
+    font-weight: 700;
+}
+.card2 >.card-button{
+    color: rgb(240, 170, 0);
+    font-weight: 700;
+}
+.card3 >.card-button{
+    color:  rgb(135, 0, 255);
+    font-weight: 700;
+}
+
 .hero-button-container{
     gap: 20px;
 }
@@ -203,7 +230,12 @@ border: 0.94px solid rgb(255, 244, 220);}
     border-radius:90%;
     
 }
-
+/* stories */
+.stories{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
 
 
 
@@ -280,12 +312,13 @@ border: 0.94px solid rgb(255, 244, 220);}
         text-align: center;
         gap: 20px;
         padding-bottom: 20px;}
-        .curriculum{margin: 50px 0px;
+        .curriculum{margin: 40px 0;
         }
 .hero-card-container{
     grid-template-columns: repeat(1,1fr);
-   
-    height: auto;
+   grid-template-rows: repeat(3, 450px);
+   gap: 25px;
+
 }
 .box{justify-content: space-between;
 gap: 25px;}
@@ -294,4 +327,10 @@ gap: 25px;}
     .nav ,.banner, .curriculum{
         width: 95%;
         margin: 0px auto;}
+        .hero-title{
+            font-size: 1.7rem;
+        }
+        .card-title{ font-size: 1rem;}
+        .card-description,
+        .card-button{font-size: .75rem ;}
 }
