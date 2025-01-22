@@ -239,6 +239,7 @@ border: 0.94px solid rgb(255, 244, 220);}
     margin: 0 auto;
     height:fit-content;
     padding: 60PX 0;
+    text-align: center;
 }
 .story-card-container{
     display: flex;
@@ -251,7 +252,9 @@ border: 0.94px solid rgb(255, 244, 220);}
     height: 750px;
     flex: 1;
 }
-
+.main-story{
+    position: relative;
+}
 .stories-img>img,
 .box2 img{
     border-radius: 16px 16px 0 0;
@@ -262,16 +265,47 @@ border: 0.94px solid rgb(255, 244, 220);}
 }
 
 
-.main-story{position: relative;}
+
+
 .main-story-content{
-    margin-top: 4%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: absolute;
+    
     left: 10%;
     gap: 70px;
 }
+.secondary-story{
+    position: relative;
+}
+.date1{
+position: absolute;
+}
+.date2{
+    position: absolute;
+background: rgb(149, 178, 38);
+}
+.date3{
+position: absolute;
+background: rgb(93, 88, 240);
+}
+.date4{
+    position: absolute;
+background-color: aquamarine;
+}
+.date5{
+    position: absolute;
+background-color:blueviolet;
+}
+.date{width: fit-content;
+    padding: 10px 20px;
+    border-radius: 47px;
+    top: 52%;
+    left: 15%;
+}
+
+
 .box2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -313,9 +347,7 @@ border: 0.94px solid rgb(255, 244, 220);}
    object-fit: cover;
     border-radius: 16px 16px 0 0;
  } 
- .date{width: fit-content;
-padding: 13px 25px;
-border-radius: 47px;}
+ 
  .main-story >.date{
     top: -25px;
     left: 90px;
@@ -463,14 +495,21 @@ gap: 25px;}
         .hero-title{
             font-size: 1.7rem;
         }
+        .full-story-container{
+            width: 95%;
+        }
+        .box1,
+.box2{
+    height: 500px;
+    flex: 1;
+}
         .card-title{ font-size: 1rem;}
         .card-description,
         .card-button{font-size: .75rem ;}
-        .main-story{display: none;}
+        .box1{display: none;}
       
             .main-story-container{
-               position: absolute;
-               display: none; 
+               
             }
         .date{display: none;}
       
