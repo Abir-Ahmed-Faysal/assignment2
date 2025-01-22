@@ -239,8 +239,10 @@ border: 0.94px solid rgb(255, 244, 220);}
     margin: 0 auto;
     height:fit-content;
     padding: 60PX 0;
-    text-align: center;
+
 }
+.stories-button,
+.story-title{text-align: center;}
 .story-card-container{
     display: flex;
     gap: 1.7%;
@@ -281,28 +283,40 @@ border: 0.94px solid rgb(255, 244, 220);}
 }
 .date1{
 position: absolute;
+background-color:  rgb(60, 216, 232);
+width: fit-content;
+    padding: 10px 20px;
+    border-radius: 47px;
+    top: 64%;
+    left: 15%;
 }
 .date2{
     position: absolute;
 background: rgb(149, 178, 38);
+top: 62%;
+    left: 15%;
 }
 .date3{
 position: absolute;
 background: rgb(93, 88, 240);
+top: 60%;
+    left: 15%;
 }
 .date4{
     position: absolute;
 background-color: aquamarine;
+top: 58%;
+    left: 15%;
 }
 .date5{
     position: absolute;
 background-color:blueviolet;
+top: 58%;
+    left: 15%;
 }
 .date{width: fit-content;
     padding: 10px 20px;
     border-radius: 47px;
-    top: 52%;
-    left: 15%;
 }
 
 
@@ -459,6 +473,10 @@ gap: 5vh;
         height: 50px;
         width: 50px;
     }
+    .button-primary{
+        font-size: 1rem;
+    }
+    
     hr{margin-bottom: 20px;}
     .marquee{
         width: 95%;
