@@ -156,6 +156,7 @@ font-weight: 700;}
     gap: 130px;
     background:url('../assets/bg.png')
 }
+
 .title{ 
     font-size: 2.9rem;
     font-weight: bold;
@@ -422,6 +423,9 @@ gap: 5vh;
         width: 50px;
     }
     hr{margin-bottom: 20px;}
+    .marquee{
+        width: 95%;
+    }
     .banner-title{font-size: 32px;
     margin: 0 auto;}
     .banner-description{font-size: 14px;}
@@ -431,9 +435,12 @@ gap: 5vh;
         text-align: center;
         gap: 20px;
         padding-bottom: 20px;}
-        .curriculum{margin: 40px 0;
-        }
+        .curriculum{margin: 40px auto;
+        text-align: center;}
+        #standard{margin-top: 40px;
+       font-size: 1.7rem; }
 .hero-card-container{
+    margin-top: -80px;
     grid-template-columns: repeat(1,1fr);
    grid-template-rows: repeat(3, 450px);
    gap: 25px;
@@ -446,6 +453,8 @@ gap: 25px;}
     .nav ,.banner, .curriculum{
         width: 95%;
         margin: 0px auto;}
+        
+        
         .hero-title{
             font-size: 1.7rem;
         }
