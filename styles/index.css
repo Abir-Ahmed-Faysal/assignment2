@@ -266,9 +266,6 @@ border: 0.94px solid rgb(255, 244, 220);}
     border-radius: 16px; 
 }
 
-
-
-
 .main-story-content{
     
     display: flex;
@@ -463,6 +460,32 @@ gap: 25px;}
             }
         .date{
         font-size: .4rem;}
+        .story-description{
+            margin-top: 45px ;
+            margin-left: 30px;  
+        }
+     
+.date2{
+
+top: 44%;
+    left: 15%;
+}
+
+.date3{
+
+top: 42%;
+    left: 15%;
+}
+.date4{
+ 
+top: 40%;
+    left: 15%;
+}
+.date5{
+
+top: 40%;
+    left: 15%;
+}
       
 /* footer */
      
