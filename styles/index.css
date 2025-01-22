@@ -238,31 +238,50 @@ border: 0.94px solid rgb(255, 244, 220);}
     width: 85%;
     margin: 0 auto;
     height:fit-content;
+    padding: 60PX 0;
 }
 .story-card-container{
     display: flex;
     gap: 1.7%;
-      
+    margin: 80px auto;
 }
+
 .box1,
 .box2{
-    height: 700px;
+    height: 750px;
     flex: 1;
-    
+}
+
+.stories-img>img,
+.box2 img{
+    border-radius: 16px 16px 0 0;
 }
 .box1{
     background-color: white;
+    border-radius: 16px; 
+}
+
+
+.main-story{position: relative;}
+.main-story-content{
+    margin-top: 4%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: absolute;
+    left: 10%;
+    gap: 70px;
 }
-
 .box2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1.7%;
 }
 
+.secondary-story{
+    background-color: white;
+    border-radius:16px;
+}
 
 
 /* .hero2{
