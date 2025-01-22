@@ -274,9 +274,8 @@ border: 0.94px solid rgb(255, 244, 220);}
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: absolute;
-    top: 110%;
-    left: 15%;
+    margin-left: 100px;
+    margin-top: 50px;
     gap: 70px;
 }
 .secondary-story{
@@ -288,7 +287,7 @@ background-color:  rgb(60, 216, 232);
 width: fit-content;
     padding: 10px 20px;
     border-radius: 47px;
-    top: 95%;
+    top: 67%;
     left: 15%;
 }
 
@@ -297,6 +296,11 @@ width: fit-content;
 background: rgb(149, 178, 38);
 top: 64%;
     left: 15%;
+}
+.story-description{
+    margin-top: 50px;
+    margin-left: 100px;
+    
 }
 .date3{
 position: absolute;
@@ -457,7 +461,8 @@ gap: 25px;}
             .main-story-container{
                
             }
-        .date{display: none;}
+        .date{
+        font-size: .4rem;}
       
 /* footer */
      
