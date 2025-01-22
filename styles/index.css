@@ -286,6 +286,7 @@ width: fit-content;
     border-radius: 47px;
     top: 67%;
     left: 15%;
+    color: white;
 }
 
 .date2{
@@ -297,7 +298,7 @@ top: 64%;
 .story-description{
     margin-top: 50px;
     margin-left: 100px;
-    
+    font-weight: 600px;
 }
 .date3{
 position: absolute;
@@ -320,6 +321,7 @@ top: 60%;
 .date{width: fit-content;
     padding: 10px 20px;
     border-radius: 47px;
+    color: white;
 }
 
 
@@ -467,7 +469,7 @@ gap: 25px;}
      
 .date2{
 
-top: 44%;
+top: 24%;
     left: 15%;
 }
 
